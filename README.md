@@ -109,9 +109,9 @@ No se aplicó normalización ni estandarización, debido a que la consigna indic
 
 Para comparar los modelos se utilizaron las siguientes métricas:
 
-Accuracy.
-Precision macro.
-Recall macro.
-F1-score macro.
-Matriz de confusión.
-Tiempo de entrenamiento.
+- Accuracy.
+- Precision macro.
+- Recall macro.
+- F1-score macro.
+- Matriz de confusión.
+- Tiempo de entrenamiento.
