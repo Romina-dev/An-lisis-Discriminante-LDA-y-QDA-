@@ -50,7 +50,7 @@ El notebook está organizado según las secciones solicitadas:
 8. Fronteras de decisión
 9. Conclusiones
 
-### Auror: Romina Salomé Vera Narváez
+### Autor: Romina Salomé Vera Narváez
 
 ## Requisitos para ejecutar el proyecto
 
