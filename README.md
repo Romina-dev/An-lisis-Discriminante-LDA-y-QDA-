@@ -64,4 +64,4 @@ pandas
 matplotlib
 seaborn
 scikit-learn
-# Auror: Romina Salomé Vera Narváez
+
