@@ -54,7 +54,7 @@ El notebook está organizado según las secciones solicitadas:
 
 El notebook puede ejecutarse directamente en Google Colab.
 
-# Auror: Romina Salomé Vera Narváez
+### Auror: Romina Salomé Vera Narváez
 
 Librerías utilizadas:
 
