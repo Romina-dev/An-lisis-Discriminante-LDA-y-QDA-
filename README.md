@@ -12,7 +12,6 @@ El repositorio contiene los siguientes archivos:
 
 - `U4_S14_Tarea_Análisis_Discriminante_(LDA_y_QDA).ipynb`: notebook principal con el desarrollo completo.
 - `wine_dataset.csv`: conjunto de datos utilizado en formato CSV.
-- `README.md`: archivo explicativo del proyecto, instrucciones de ejecución y resumen de hallazgos.
 
 ## Dataset utilizado
 
@@ -54,7 +53,39 @@ El notebook está organizado según las secciones solicitadas:
 
 ## Requisitos para ejecutar el proyecto
 
-El notebook puede ejecutarse directamente en Google Colab.
+1. Ingresar a Google Colab.
+2. Subir el archivo:
+
+   `U4_S14_Tarea_Análisis_Discriminante_(LDA_y_QDA).ipynb`
+
+3. Ejecutar las celdas en orden, desde la primera hasta la última.
+4. Revisar las salidas generadas: tablas, visualizaciones, matrices de confusión, métricas y fronteras de decisión.
+
+En Google Colab no es necesario instalar librerías manualmente, ya que normalmente las librerías utilizadas ya están disponibles.
+
+### Opción 2: Ejecutar en entorno local
+
+1. Clonar el repositorio:
+
+```bash
+git clone https://github.com/Romina-dev/An-lisis-Discriminante-LDA-y-QDA-/edit/main/README.md
+```
+2. Ingresar a la carpeta del proyecto:
+```bash
+cd An-lisis-Discriminante-LDA-y-QDA-
+```
+
+3. Instalar las librerías necesarias:
+```bash
+pip install pandas numpy matplotlib seaborn scikit-learn
+```
+
+4. Abrir Jupyter Notebook:
+```bash
+jupyter notebook
+```
+5. Ejecutar el archivo:
+U4_S14_Tarea_Análisis_Discriminante_(LDA_y_QDA).ipynb
 
 Librerías utilizadas:
 
@@ -64,4 +95,23 @@ pandas
 matplotlib
 seaborn
 scikit-learn
+```
 
+## Preparación de los datos
+
+La preparación consistió en separar el dataset en entrenamiento y prueba.
+
+Se utilizó una partición estratificada con stratify=y para conservar la proporción de las tres clases tanto en el conjunto de entrenamiento como en el conjunto de prueba.
+
+No se aplicó normalización ni estandarización, debido a que la consigna indica usar el Wine Dataset sin tratamiento.
+
+## Métricas de evaluación
+
+Para comparar los modelos se utilizaron las siguientes métricas:
+
+Accuracy.
+Precision macro.
+Recall macro.
+F1-score macro.
+Matriz de confusión.
+Tiempo de entrenamiento.
