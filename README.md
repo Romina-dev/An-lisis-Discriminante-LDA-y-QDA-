@@ -50,11 +50,11 @@ El notebook está organizado según las secciones solicitadas:
 8. Fronteras de decisión
 9. Conclusiones
 
+### Auror: Romina Salomé Vera Narváez
+
 ## Requisitos para ejecutar el proyecto
 
 El notebook puede ejecutarse directamente en Google Colab.
-
-### Auror: Romina Salomé Vera Narváez
 
 Librerías utilizadas:
 
